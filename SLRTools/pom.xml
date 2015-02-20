@@ -1,0 +1,143 @@
+<!-- 
+ Copyright © 2014 Universidad Icesi
+ 
+ This file is part of the SLR Tools.
+ 
+ The SLR Tools are free software: you can redistribute it 
+ and/or modify it under the terms of the GNU Lesser General 
+ Public License as published by the Free Software 
+ Foundation, either version 3 of the License, or (at your 
+ option) any later version.
+ 
+ The SLR Tools are distributed in the hope that it will be 
+ useful, but WITHOUT ANY WARRANTY; without even the implied 
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+ PURPOSE. See the GNU Lesser General Public License for 
+ more details.
+ 
+ You should have received a copy of the GNU Lesser General 
+ Public License along with The SLR Support Tools. If not, 
+ see <http://www.gnu.org/licenses/>.
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>co.edu.icesi.i2t.slrtools</groupId>
+	<artifactId>parent-project</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>SLR Tools</name>
+	<description>Support tools for the process of systematic literature reviews.
+	Built by the I2T Research Group, Icesi University.</description>
+	<url>https://github.com/unicesi/slr-tools</url>
+	<inceptionYear>2014</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License, Version 3</name>
+			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>Universidad Icesi</name>
+		<url>http://www.icesi.edu.co</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>hfarboleda</id>
+			<name>Hugo Arboleda</name>
+			<email>hfarboleda@icesi.edu.co</email>
+			<url>http://www.icesi.edu.co/tics/hfarboleda</url>
+			<organization>Universidad Icesi</organization>
+			<roles>
+				<role>architect</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>afpaz</id>
+			<name>Andres Paz</name>
+			<email>afpaz@icesi.edu.co</email>
+			<url>http://www.icesi.edu.co/tics/afpaz</url>
+			<organization>Universidad Icesi</organization>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>nkabdala</id>
+			<name>Nasser Abdala</name>
+			<organization>Universidad Icesi</organization>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+	
+	<contributors>
+		<contributor>
+			<name>Jose Andrés Moncada</name>
+			<email>jamoncada@icesi.edu.co</email>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Diego Navarro</name>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Ana Cristina López</name>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</contributor>
+		<contributor>
+			<name>Diego Mendez</name>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</contributor>
+	</contributors>
+
+	<modules>
+		<module>../SLRConfig</module>
+		<module>../SLRRobot</module>
+		<module>../SLRBib</module>
+		<module>../SLRToolsDistribution</module>
+	</modules>
+
+	<!-- 
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<outputDirectory>${project.build.directory}</outputDirectory>
+						<descriptors>
+							<descriptor>src/main/assembly/bin.xml</descriptor>
+							<descriptor>src/main/assembly/lib.xml</descriptor>
+						</descriptors>
+						<overWriteReleases>true</overWriteReleases>
+                		<overWriteSnapshots>true</overWriteSnapshots>
+                		<overWriteIfNewer>true</overWriteIfNewer>
+                		<excludeScope>test</excludeScope>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+ -->
+</project>
