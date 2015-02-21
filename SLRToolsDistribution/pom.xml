@@ -66,6 +66,7 @@
 				<excludes>
 					<exclude>*.xml</exclude>
 					<exclude>*.dist</exclude>
+					<exclude>*.txt</exclude>
 				</excludes>
 				<filtering>false</filtering>
 			</resource>
@@ -106,6 +107,7 @@
 									<directory>${basedir}/src/main/resources</directory>
 									<includes>
 										<include>SLRConfig.xml</include>
+										<include>README.txt</include>
 									</includes>
 								</resource>
 							</resources>
