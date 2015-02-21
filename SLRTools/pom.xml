@@ -24,7 +24,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>co.edu.icesi.i2t.slrtools</groupId>
-	<artifactId>parent-project</artifactId>
+	<artifactId>SLRTools</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
